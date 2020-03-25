@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Mar, 2020, 12:11:20 AM
+    Author     : Sweta Jha
+*/
+body 
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+li> a
+{
+    text-decoration: none; 
+    background-color: transparent; 
+    color:#ededed; 
+}
+#header
+{
+    background-color:#000;
+    color:#fff; 
+    border-color: #080808;
+    min-height: 50px; 
+    border: 1px solid transparent;
+    
+}
+#inner-header
+{
+    width:80%; 
+    margin:auto;
+}
+nav { 
+    list-style-type: none;
+    
+} 
+.logo
+{
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.header-link
+{
+    list-style-type: none;
+    float:right;
+    font-size:14px;
+    height: 50px;
+    padding: 15px 15px;
+    text-decoration: none; 
+    font-size:16px;
+    font-weight: bold
+}
+.content
+{
+    min-height: 600px;
+}
+#banner-image
+{
+    padding-bottom: 50px; 
+    margin-bottom: 20px; 
+    text-align: center;
+    color: #f8f8f8;
+    background: url(./image/intro-bg_1.jpg) no-repeat center;
+    background-size: cover;
+}
+#inner-banner-image
+{
+    padding-top: 12%;
+    width:80%; 
+    margin:auto;
+}
+#banner-content
+{
+   position: relative;
+   margin: 0 auto;
+    padding-top: 6%; 
+    padding-bottom: 6%; 
+    overflow:hidden;
+    margin-bottom: 12%; 
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+a> input[type="submit"] {
+	border: none;
+        background-color: #c9302c;
+        color: white;
+}
+ .buttonS1
+{
+    color: #fff; 
+    background-color: #c9302c; 
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    padding: 10px 16px; 
+    font-size: 18px; 
+    border-radius: 6px;
+}
+#contain
+{
+    content: "";
+   display: table;
+    clear: both;
+    width:90%; 
+    margin:auto;
+    overflow:hidden;
+}
+
+#inner-content
+{
+    padding-bottom: 50px; 
+    margin-bottom: 20px; 
+  
+}
+#inner
+{
+  position: relative;
+   margin: 0 auto;
+    padding-top: 6%; 
+    padding-bottom: 6%; 
+    overflow:hidden;
+    margin-bottom: 12%; 
+    max-width: 660px; 
+}
+.btn-primary{
+    font-size: 25px;
+    
+}
+.caption
+{
+    text-align: center;
+    
+}
+
+footer
+{
+    background-color: #000; 
+    color:#fff; 
+    font-size:14px;
+}
+
+footer p {
+	text-align: center;
+}
+
